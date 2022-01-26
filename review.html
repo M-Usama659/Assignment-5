@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Review</title>
+</head>
+
+<body>
+    <br /><br />
+    <table style="text-align: center; margin: auto; width: 500px;height: 40px;" cellspacing="0">
+        <tr>
+            <td style="background-color:rgb(101, 201, 123);"><b>Step 1: Account</b></td>
+            <td style="background-color:rgb(101, 201, 123);"><b>Step 2:Personal Details</b></td>
+            <td style="background-color:rgb(141, 170, 252);"><b>Step 3: Your Review</b></td>
+        </tr>
+    </table>
+    <br /><br />
+    <fieldset style="width: 475px;margin:auto">
+        <legend><b>Your Review</b></legend>
+
+
+    
+        <form action="index.html"><br />
+
+            <b>How did you hear about us?</b>
+            <select name="">
+                <option disabled selected>Select your answer</option>
+                <option value="From friend">From Friend</option>
+                <option value="From Internet">From Internet</option>
+            </select><br /><br />
+            <b>Would you visit again?</b><br />
+            <label for="">
+            <input type="radio" name="answer" id="yes"required>Yes
+            <input type="radio" name="answer" id="no"required>No
+            <input type="radio" name="answer" id="maybe"required>Maybe
+            </label>
+            <br /><br />
+            <b>Comments:</b><br> /
+            <textarea name="Comments" placeholder="Enter your comments hear..." cols="30" rows="4"></textarea><br /><br />
+            <b>Documents:</b><br />
+            <input type="file" name="file" required><br /><br />
+            <input type="checkbox" name="checkbox"required><b>Sign me up for email updates</b><br /><br />
+            <a href="personal.html"><img src="Images/back.png" alt="Back"width="100px"></a>
+            <input type="image" src="Images/submit.png" alt="submit"width="100px">
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
